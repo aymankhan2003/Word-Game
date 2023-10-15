@@ -144,5 +144,5 @@ if __name__ == '__main__':
     total_life = 7
     play_wordgame("cs_words.txt", total_life) 
     
-    #Replace the "cs_words.txt" with a word file fo your own that contains a dictionary or set of words.
+    #Replace the "cs_words.txt" with a word file of your own that contains a dictionary or set of words.
     
