@@ -6,7 +6,9 @@ from random import randint
 
 
 def read_words(filename):
+    
     """
+    
     This function reads a file and opens the inputs inside of it
 
     Args:
@@ -15,6 +17,7 @@ def read_words(filename):
     Return:
         Returns the lines in the files inside the value of "words"
     """
+    
     with open(filename, "r")as word_file:
         words = []
         
@@ -137,6 +140,9 @@ def play_wordgame(filename, total_life):
                  
 
 if __name__ == '__main__':
+
     total_life = 7
-    play_wordgame("cs_words.txt", total_life) #Replace the "cs_words.txt" with a word file fo your own that contains a dictionary or set of words.
+    play_wordgame("cs_words.txt", total_life) 
+    
+    #Replace the "cs_words.txt" with a word file fo your own that contains a dictionary or set of words.
     
